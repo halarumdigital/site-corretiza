@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){if(!i)return;w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','%VITE_GTM_ID%');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i){if(!i)return;
+      var s=document.createElement('script');s.async=true;
+      s.src='https://www.googletagmanager.com/gtag/js?id='+i;
+      document.head.appendChild(s);
+      window.dataLayer=window.dataLayer||[];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js',new Date());gtag('config',i);
+      window.gtag=gtag;
+      })('%VITE_GA_MEASUREMENT_ID%');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Facebook Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s){if(!v)return;if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src='https://connect.facebook.net/en_US/fbevents.js';s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script','%VITE_FACEBOOK_PIXEL_ID%');
+      if('%VITE_FACEBOOK_PIXEL_ID%'){fbq('init','%VITE_FACEBOOK_PIXEL_ID%');fbq('track','PageView');}
+    </script>
+    <!-- End Facebook Pixel -->
+
+    <meta name="description" content="Corretiza: A inteligência artificial que vende imóveis por você. Converta leads em contratos fechados 24/7 com atendimento automatizado, qualificação de leads e integração total com seus canais. Aumente sua conversão em 60% com nossa IA imobiliária." />
+    <meta name="keywords" content="IA imobiliária, automação imobiliária, atendimento automatizado, qualificação de leads, CRM imobiliário, WhatsApp Business, conversão de leads, Corretiza" />
+    <meta name="author" content="Corretiza" />
+    <link rel="canonical" href="https://corretiza.com/" />
+    <meta name="last-modified" content="2025-01-01" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://corretiza.com/" />
+    <meta property="og:title" content="Corretiza - IA que Vende Imóveis por Você 24/7" />
+    <meta property="og:description" content="Converta leads em contratos fechados 24 horas por dia com inteligência artificial. Atendimento automatizado, qualificação de leads e 60% mais conversão." />
+    <meta property="og:image" content="https://corretiza.com/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://corretiza.com/" />
+    <meta property="twitter:title" content="Corretiza - IA que Vende Imóveis por Você 24/7" />
+    <meta property="twitter:description" content="Converta leads em contratos fechados 24 horas por dia com inteligência artificial." />
+    <meta property="twitter:image" content="https://corretiza.com/og-image.jpg" />
+    
+    <title>Corretiza - IA que Vende Imóveis por Você 24/7 | Automação Imobiliária</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%VITE_GTM_ID%" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Facebook Pixel (noscript) -->
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=%VITE_FACEBOOK_PIXEL_ID%&ev=PageView&noscript=1"/></noscript>
+    <!-- End Facebook Pixel (noscript) -->
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
