@@ -47,7 +47,7 @@ export default function HeroSection() {
         <div className={`relative max-w-5xl mx-auto transition-all duration-1000 delay-800 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
             <img
-              src="https://readdy.ai/api/search-image?query=Modern%20AI%20powered%20real%20estate%20dashboard%20interface%20showing%20WhatsApp%20conversations%20with%20clients%2C%20property%20recommendations%2C%20lead%20qualification%20metrics%2C%20conversion%20analytics%2C%20and%20automated%20chat%20responses%20on%20sleek%20dark%20interface%20with%20purple%20and%20violet%20accent%20colors%2C%20professional%20business%20software%20screenshot%2C%20clean%20minimalist%20design%2C%20high%20quality%20UI%20mockup&width=1200&height=700&seq=hero-dashboard-purple-001&orientation=landscape"
+              src="/uploads/dash1.png"
               alt="Dashboard Corretiza"
               className="w-full h-auto"
             />
